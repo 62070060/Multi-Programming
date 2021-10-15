@@ -5,67 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleGRID.css">
+    <script src="script.js"></script>
     <title>FAST FASHION</title>
-</head>
-<style>
-    body{
-      background:#eee;
-      font-family:sans-serif;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-    }
-    a{
-      color:deeppink;
-      text-decoration: none;
-    }
-    .social{
-      font-size:2em;
-    }
-  </style>
 </head>
 <body>
   <div class="main">
-    <h1>
-        FAST FASHION
-    </h1>
-    <p>
-      Welcome to my site
-    </p>
-    <p class="social">
-     
-      <a href="_____" class="">
-        <i class="fab fa-instagram">
-        </i>
-      </a>
+    <div id="menu" data-tog="-1">
+      Member<br>
+      <h2>IT</h2>
+          <div class='btn'>
+            - กิตติพงษ์  หนองมีทรัพย์<br>   
+            - จิตรภาณุ  อินทรเลน<br>      
+            - ชิษณุพงศ์ กงกันยา<br>      
+            - ณัฏฐ์     ศรีสุขหวัง<br>
+            - อาณกร   รักร่วม<br>  
+          </div> 
+      <h2>CA</h2>
+          <div class='btn'>
+            - ณัฐชา    ธีระแนว<br>
+            - นาตาชา   จันทร์อิ่ม<br>
+            - บุณยวีย์   วัฒนะนิธิวงศ์<br>
+            - วิรัลพัชร์   จันทรเสถียร<br>
+          </div>
+    </div>
+         
+       <img src="https://cdn.discordapp.com/attachments/878836466728456202/878844710817517618/menu-w.png" style="width: 5vw; cursor:pointer" onclick="menu.dataset.tog *= -1" id="bar">    
+
+    <div class="fullscreen flex-center-parent">
       
-      <a href="_____" class="">
-        <i class="fab fa-twitter">
-        </i>
-      </a>
-      
-      <a href="_____" class="">
-        <i class="fab fa-facebook">
-        </i>
-      </a>
-      
-      <a href="mailto:jabont@hotmail.com" class="">
-        <i class="fab fa-email">
-        </i>
-      </a>
-      
-       <a href="_____" class="">
-        <i class="fab fa-linkedin">
-        </i>
-      </a>
-      
-       <a href="_____" class="">
-        <i class="fab fa-line">
-        </i>
-      </a>
-      
-    </p>
+
+        <div class="social">
+
+          <a href="#!" class=""><img src="PIC/WC.png"style="width:calc(100vw / 8);"/><br><br><br></a>
+
+          <a href="#!" class="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        
+          <a href="#!" class="">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+          <a href="#!" class="">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+          <a href="#!" class="">
+            <i class="fab fa-email"></i>
+          </a>
+        
+          <a href="#!" class="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        
+          <a href="#!" class="">
+            <i class="fab fa-line"></i>
+          </a>
+        
+        </div>
+    </div>
   </div>
 </body>
 </html>
