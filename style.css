@@ -16,10 +16,10 @@ a{
 }
 
 .fullscreen{
-    width:auto;
+    width:100vw;
     height:100vh;
     background-size: cover;
-    background-image: url('PIC/BG.jpg'); 
+    background-image: url('PIC/BGM.jpg'); 
 }
 .flex-center-parent{
     display:flex;
