@@ -3,7 +3,7 @@
     height:100vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/BGM2.jpg'); 
+    background-image: url('PIC/BGM4.jpg'); 
 }
 
 .flex-center-parent{
@@ -59,34 +59,34 @@ p{
   .button {
     transition-duration: 0.3s;
   }
-  #U1{
+  #U7{
     display: block;
     color: white;
     padding: 1em;
     position: fixed;
-    width:32.2vw;
-    top: 20vw; 
+    width:29vw;
+    top: 18vw; 
     right: -35vw;
     box-sizing: border-box;
 }
-  #U2{
+  #U8{
     display: block;
     color: white;
     padding: 1em;
     position: fixed;
-    width:16vw;
-    top: 15vw; 
+    width:13.5vw;
+    top: 16vw; 
     right: -20vw;
     box-sizing: border-box;
 }
-  #U3{
+  #U9{
     display: block;
     color: white;
     padding: 1em;
     position: fixed;
-    width:1vw;
-    top: 25vw; 
-    right: 0vw;
+    width:2vw;
+    top: 26vw; 
+    right: -10vw;
     box-sizing: border-box;
 }
 [data-tog="1"]{
