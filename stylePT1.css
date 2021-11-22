@@ -53,6 +53,8 @@
 
 body{
     font-family:sans-serif;
+    --h:0;
+    --scrollY:0;
 }
 .wctext{
     font-size:calc(80vw / 40);
@@ -66,7 +68,7 @@ p{
 }
 h3{
     font-size:calc(60vw / 50);
-    margin-top: -40vh;
+    margin-top: -50vh;
     color: white;
 }
 h4{
@@ -82,5 +84,22 @@ h5{
     margin-left: -50vw;
     text-align: center;
     color: black;
-    box-shadow: white;
 }
+
+#U7{
+    display: block;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width:40vw;
+    top: 15vw; 
+    right: 0vw;
+    box-sizing: border-box;
+}
+[data-tog="1"]{
+    left: 150vw !important;
+}
+
+#wow{
+    transition:all 0.8s;
+  }

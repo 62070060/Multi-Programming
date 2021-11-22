@@ -26,6 +26,8 @@
 
 body{
     font-family:sans-serif;
+    --h:0;
+    --scrollY:0;
 }
 .wctext{
     font-size:calc(60vw / 40);
