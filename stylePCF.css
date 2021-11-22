@@ -1,16 +1,11 @@
 .fullscreen{
     width:100VW;
-    height:100vh;
+    height:200vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/PCC.jpg'); 
+    background-image: url('PIC/PCF.jpg'); 
 }
-.flex-center-parent{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    
-}
+
 @media screen and (max-width: 800px) {
     .fullscreen {
         background-image: url('PIC/BGP.jpg'); 
@@ -31,11 +26,30 @@ body{
     font-size:calc(80vw / 50);
     margin-bottom: 3%; 
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 100vh;
+    margin-left: -80vh;
 }
 
 
 .button:hover{
     opacity: 0.6;
     transition:0.5s;
+    transform: scale(1.2);
+  }
+  #gear{
+  --deg:0;
+  position:fixed;
+  left: 1vw;
+  transform:rotate(calc(var(--deg) * 0.13deg));
+}
+#gear2{
+    --deg:0;
+    position:fixed;
+    top:25vh;
+    left: 15.2vw;
+    transform:rotate(calc(var(--deg) * 0.05deg));
+  }
+
+#wow{
+    transition:all 0.8s;
   }

@@ -1,0 +1,106 @@
+.fullscreen1{
+    width:100VW;
+    height:130vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('PIC/BGTC.jpg'); 
+}
+.fullscreen2{
+    width:100VW;
+    height:100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('PIC/BGM.jpg'); 
+}
+@media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
+}
+
+body{
+    font-family:sans-serif;
+    --h:0;
+    --scrollY:0;
+}
+.wctext{
+    font-size:calc(80vw / 40);
+    margin-bottom: 3%; 
+    text-align: left;
+    color: white;
+}
+
+h1{
+    font-size:calc(60vw / 30);
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    border: 2px solid black;
+    top: 100vw;
+}
+h2{
+    font-size:calc(60vw / 50);
+}
+b{
+    color: deeppink;
+}
+h3{
+    font-size:calc(60vw / 20);
+}
+
+.text01{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.text02{
+    margin-top:5vh;
+    margin-left: 0vw;
+}
+.text03{
+    margin-top:5vh;
+    margin-left: 0vw;
+}
+
+.button:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+    transition:0.25s;
+  }
+
+#ex1{
+    display: block;
+    color: white;
+    padding: 1em;
+    position:relative;
+    width:25vw;
+    top: 0vw; 
+    right: -55vw;
+}
+#ex2{
+    display: block;
+    color: white;
+    padding: 1em;
+    position:relative;
+    width:25vw;
+    top: 10vw; 
+    right: -5vw;
+}
+#ex3{
+    display: block;
+    color: white;
+    padding: 1em;
+    position:relative;
+    width:25vw;
+    top: -5vw; 
+    right: -75vw;
+}
+[data-tog="1"]{
+    left: 150vw !important;
+}

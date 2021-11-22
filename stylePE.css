@@ -5,13 +5,7 @@
     background-size: cover;
     background-image: url('PIC/BGTC.jpg'); 
 }
-.fullscreen2{
-    width:100VW;
-    height:200vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-image: url('PIC/BGTC.jpg'); 
-}
+
 @media screen and (max-width: 800px) {
     .fullscreen {
         background-image: url('PIC/BGP.jpg'); 
@@ -48,6 +42,7 @@ h3{
     margin-top: 40vh;
     margin-left: 0vw;
 }
+
 .text02{
     margin-top:-85vh;
     margin-left: 0vw;
