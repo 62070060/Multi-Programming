@@ -91,10 +91,20 @@ h5{
     color: white;
     padding: 1em;
     position: fixed;
-    width:40vw;
+    width:50vw;
     top: 15vw; 
-    right: 0vw;
+    right: -0.5vw;
     box-sizing: border-box;
+}
+#U8{
+    display: block;
+    color: white;
+    padding: 1em;
+    position:relative;
+    width:30vw;
+    top: -25vw; 
+    right: -55vw;
+
 }
 [data-tog="1"]{
     left: 150vw !important;
@@ -103,3 +113,9 @@ h5{
 #wow{
     transition:all 0.8s;
   }
+
+.button:hover{
+    opacity: 0.6;
+    transform: scale(1.2);
+    transition:0.5s;
+}

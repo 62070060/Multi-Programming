@@ -1,0 +1,68 @@
+.fullscreen1{
+    width:100VW;
+    height:500vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('PIC/BGT2.jpg'); 
+}
+@media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
+}
+
+body{
+    font-family:sans-serif;
+    --h:0;
+    --scrollY:0;
+}
+.wctext{
+    font-size:calc(80vw / 40);
+    margin-bottom: 3%; 
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size:calc(60vw / 20);
+}
+h2{
+    font-size:calc(60vw / 50);
+    text-align: left;
+    margin-left: 28vw;
+}
+h3{
+    font-size:calc(60vw / 50);
+}
+
+.text01{
+    margin-top: 60vh;
+    margin-left: -10vw;
+}
+.text02{
+    margin-top: 100vh;
+    margin-left: 0vw;
+}
+.text03{
+    margin-top: 38vh;
+    margin-left: 0vw;
+}
+.text04{
+    margin-top: 20vh;
+    margin-left: 60vw;
+}
+.text05{
+    margin-top: 20vh;
+    margin-left: 28vw;
+}
+.text06{
+    margin-top: 70vh;
+    margin-left: 0vw;
+}
+.button:hover{
+    opacity: 0.6;
+    transition:0.5s;
+  }
