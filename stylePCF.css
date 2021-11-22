@@ -6,15 +6,7 @@
     background-image: url('PIC/PCF.jpg'); 
 }
 
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
-    }
-    .social{
-        font-size:30;
-        margin-bottom: 20%;   
-      }    
-}
+
 
 body{
     font-family:sans-serif;
@@ -53,3 +45,15 @@ body{
 #wow{
     transition:all 0.8s;
   }
+  
+  
+  
+@media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
+}

@@ -13,17 +13,6 @@
     
 }
 
-
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
-    }
-    .social{
-        font-size:30;
-        margin-bottom: 20%;   
-      }    
-}
-
 body{
     font-family:sans-serif;
 }
@@ -91,4 +80,26 @@ p{
 }
 [data-tog="1"]{
     right: 58vw !important;
+}
+
+
+@media screen and (max-width: 800px) {
+  .fullscreen {
+    background-image: url('PIC/BGM2X.jpg'); 
+}
+.wctext{
+  font-size:calc(60vw / 20);
+  text-align: center;
+  margin-top: 20vh;
+  margin-left: 10vh;
+  color: white;
+}
+p{
+  font-size:calc(60vw / 20);
+}
+.flex-center-parent{
+display:flex;
+justify-content: center;
+align-items:center;   
+} 
 }

@@ -11,15 +11,7 @@
     align-items:center;
     
 }
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
-    }
-    .social{
-        font-size:30;
-        margin-bottom: 20%;   
-      }    
-}
+
 
 body{
     font-family:sans-serif;
@@ -39,3 +31,16 @@ body{
     opacity: 0.6;
     transition:0.5s;
   }
+  
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
+}

@@ -6,15 +6,6 @@
     background-image: url('PIC/BGTC.jpg'); 
 }
 
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
-    }
-    .social{
-        font-size:30;
-        margin-bottom: 20%;   
-      }    
-}
 
 body{
     font-family:sans-serif;
@@ -73,3 +64,15 @@ h3{
   #picture[data-active="1"] #pic1{top:170vh;left:10vw}
   #picture[data-active="1"] #pic2{top:165vh;right:5vw}
   #picture[data-active="1"] #pic3{top:160vh;left:65vw}
+
+
+  
+@media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
+}

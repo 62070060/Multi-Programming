@@ -12,15 +12,7 @@
     background-size: cover;
     background-image: url('PIC/BGM.jpg'); 
 }
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
-    }
-    .social{
-        font-size:30;
-        margin-bottom: 20%;   
-      }    
-}
+
 
 body{
     font-family:sans-serif;
@@ -103,4 +95,16 @@ h3{
 }
 [data-tog="1"]{
     left: 150vw !important;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .fullscreen {
+        background-image: url('PIC/BGP.jpg'); 
+    }
+    .social{
+        font-size:30;
+        margin-bottom: 20%;   
+      }    
 }
