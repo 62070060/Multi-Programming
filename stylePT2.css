@@ -58,16 +58,62 @@ h3{
     opacity: 0.6;
     transition:0.5s;
   }
-  
+
   
   
 
- @media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
+  @media screen and (max-width: 800px) {
+    .fullscreen1 {
+        width: 100vw;
+        height: 200vh;
+        background: url('PIC/BGT2.jpg');
+        background-size: cover;
+        background-position: center, center;
     }
     .social{
         font-size:30;
         margin-bottom: 20%;   
-      }    
+      }
+    .text01{
+        font-size: 5vw;
+        margin-top: 12vh;
+        margin-left: -10vw;
+    }
+    .text02{
+        font-size: 3vw;
+        margin-top: 22vh;
+        margin-left: 0vw;
+    }
+    .text03{
+        font-size: 4vw;
+        margin-top: 8vh;
+        margin-left: 0vw;
+    }
+    h2{
+        font-size:calc(60vw / 20);
+        text-align: center;
+        margin-left: 2vw;
+    }
+    .kid{
+        width: 40vw;
+        position:absolute;
+        right: 25vw;
+        margin-top: -8vh;
+    }
+    .text04{
+        font-size:calc(60vw / 20);
+        margin-top: 10vh;
+        margin-left: 2vw;
+    }
+    .text05{
+        font-size:calc(60vw / 20);
+        margin-top: 1vh;
+        margin-left: 2vw;
+    }
+    .button{
+        position:absolute;
+        cursor:pointer;
+        margin-right: 65vw;
+        top: 80vh;
+    } 
 }

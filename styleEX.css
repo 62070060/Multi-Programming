@@ -100,8 +100,8 @@ h3{
 
 
 @media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGP.jpg'); 
+    .fullscreen1 {
+        background-image: url('PIC/BGTC.jpg'); 
     }
     .social{
         font-size:30;

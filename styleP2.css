@@ -48,6 +48,28 @@ p{
   .button {
     transition-duration: 0.3s;
   }
+  .UIM4{
+    width: 27.4vw; 
+    cursor:pointer; 
+    position:absolute; 
+    top: 9.3vw; 
+    right: 67.3vw;
+
+  }
+  .UIM5{
+    width: 22.1vw; 
+    cursor:pointer; 
+    position:absolute; 
+    top: 3.7vw; 
+    right: 54.4vw;
+  }
+  .UIM6{
+    width: 36vw;
+    cursor:pointer;
+    position:absolute;
+    top: 9.5vw;
+    right: 35vw; 
+  }
   #U4{
     display: block;
     color: white;
@@ -87,19 +109,56 @@ p{
   .fullscreen {
     background-image: url('PIC/BGM2X.jpg'); 
 }
-.wctext{
-  font-size:calc(60vw / 20);
-  text-align: center;
-  margin-top: 20vh;
-  margin-left: 10vh;
-  color: white;
+  .wctext{
+    font-size:calc(80vw / 20);
+    text-align: center;
+    margin-top: 68vh;
+    margin-left: 10vh;
+    color: white;
 }
-p{
-  font-size:calc(60vw / 20);
+  p{
+    font-size:calc(80vw / 20);
 }
-.flex-center-parent{
-display:flex;
-justify-content: center;
-align-items:center;   
-} 
+  .flex-center-parent{
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+  }
+  .UIM4{
+    width: 50vw;
+    cursor:pointer;
+    position:absolute;
+    top: 19vw;
+    right: 48vw;
+  }
+  .UIM5{
+    width: 32vw;
+    cursor:pointer;
+    position:absolute;
+    top: 15vw;
+    right: 32vw; 
+  }
+  .UIM6{
+    width: 50vw;
+    cursor:pointer;
+    position:absolute;
+    top: 18vw;
+    right: 0vw; 
+  }
+
+  #U4{
+    width:25vw;
+    top: 35vw; 
+    right: -35vw;
+}
+  #U5{
+    width:70vw;
+    top: 30vw; 
+    right: -10vw;
+}
+  #U6{
+    width:70vw;
+    top: 45vw; 
+    right: -30vw;
+}
 }

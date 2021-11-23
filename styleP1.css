@@ -23,6 +23,13 @@ body{
     color: white;
 
 }
+.wctext2{
+    font-size:calc(60vw / 50);
+    margin-top: -5vh;
+    margin-left: -20vh;
+    text-align: right;
+    color: white;
+}
 p{
     font-size:calc(60vw / 40);
 }
@@ -47,6 +54,27 @@ p{
   }
   .button {
     transition-duration: 0.3s;
+  }
+  .UIM1{
+    width: 30vw;
+    cursor:pointer;
+    position:absolute;
+    top: 8.6vw;
+    right: 67.7vw;
+  }
+  .UIM2{
+    width: 20vw;
+    cursor:pointer;
+    position:absolute;
+    top: 9vw;
+    right: 56.2vw; 
+  }
+  .UIM3{
+    width: 34vw;
+    cursor:pointer;
+    position:absolute;
+    top: 11vw;
+    right: 33vw; 
   }
   #U1{
     display: block;
@@ -84,23 +112,59 @@ p{
 
 
 @media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGM2X.jpg'); 
-    }
-    .wctext{
-      font-size:calc(60vw / 20);
-      text-align: center;
-      margin-top: 20vh;
-      margin-left: 10vh;
-      color: white;
-  }
+  .fullscreen {
+    background-image: url('PIC/BGM2X.jpg'); 
+}
+  .wctext{
+    font-size:calc(80vw / 20);
+    text-align: center;
+    margin-top: 68vh;
+    margin-left: 10vh;
+    color: white;
+}
   p{
-      font-size:calc(60vw / 20);
-  }
+    font-size:calc(80vw / 20);
+}
   .flex-center-parent{
     display:flex;
     justify-content: center;
-    align-items:center;
-    
+    align-items:center; 
+  }
+  .UIM1{
+    width: 50vw;
+    cursor:pointer;
+    position:absolute;
+    top: 19vw;
+    right: 48vw;
+  }
+  .UIM2{
+    width: 32vw;
+    cursor:pointer;
+    position:absolute;
+    top: 15vw;
+    right: 32vw; 
+  }
+  .UIM3{
+    width: 50vw;
+    cursor:pointer;
+    position:absolute;
+    top: 18vw;
+    right: 0vw; 
+  }
+
+  #U1{
+    width:25vw;
+    top: 35vw; 
+    right: -35vw;
+}
+  #U2{
+    width:70vw;
+    top: 25vw; 
+    right: -10vw;
+}
+  #U3{
+    width:68vw;
+    top: 35vw; 
+    right: -30vw;
 }
 }

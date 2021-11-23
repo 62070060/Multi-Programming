@@ -52,6 +52,20 @@ body{
     margin-right: 5vh;
     color: white;
 }
+.wctext2{
+    font-size:calc(60vw / 50);
+    margin-top: -5vh;
+    margin-left: -20vh;
+    text-align: right;
+    color: white;
+}
+.UIM1C{
+    width: 36vw;
+    cursor:pointer;
+    position:absolute;
+    top: 16vw;
+    right: 32.5vw;
+}
 p{
     font-size:calc(60vw / 50);
 }
@@ -109,7 +123,27 @@ h5{
     transition:0.5s;
 }
 
-
+.pictext{
+    width: 48vw;
+    position:absolute;
+    left: 5vw;
+    top: 400vh; 
+}
+.rain{
+    width: 30vw;
+    position:fixed;
+    right: 32vw;
+    top: 5vh; 
+}
+.flower{
+    width: 55vw;
+    position:absolute;
+    right: 0vw;
+}
+.button{
+    width: 40vw; 
+    cursor:pointer;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -128,12 +162,35 @@ h5{
     .fullscreen5{
         background-image: url('PIC/BGT1.8.jpg'); 
     }
+    h3{
+        font-size:calc(60vw / 8);
+        margin-left: 5vh;
+        color: white;
+    }
     .social{
         font-size:30;
         margin-bottom: 20%;   
-      }    
-    .UIM1{
-        top: 20vw;
+      }
+    .wctext{
+        font-size:calc(80vw / 20);
+        margin-bottom: 3%; 
+        text-align: center;
+        margin-left: 5vh;
+        color: white;
+    }
+    .wctext2{
+        font-size:calc(80vw / 18);
+        margin-bottom: 20%; 
+        text-align: center;
+        margin-left: 40vw;
+        color: white;
+    }    
+    .UIM1C{
+        width: 80vw;
+        cursor:pointer;
+        position:absolute;
+        top: 90vw;
+        right: 10vw;
     }
     .UIM2{
         top: 550vw;
@@ -141,7 +198,34 @@ h5{
     .UIM3{
         top: 760vw;
     }
-    .UIM4{
+    .pictext{
         top: 930vw;
+        width: 84vw;
+        position:absolute;
+        top: 400vh;
+    }
+    .play-button{
+        width: 10vw;
+        cursor:pointer;
+        position:absolute;
+        right: 80vw;
+        top: 430vh;
+    }
+    .flower{
+        width: 100vw;
+        position:absolute;
+        right: 0vw;
+        top: 428vh;
+    }
+    .rain{
+        width: 56vw;
+        position:absolute;
+        right: 40vw;
+        top: -9vh;  
+    }
+    .button{
+        width: 100vw; 
+        cursor:pointer;
+        top: -50vh;
     }
 }
