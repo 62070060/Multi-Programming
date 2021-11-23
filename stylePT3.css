@@ -4,6 +4,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/BGT3.jpg'); 
+    background-position: center;
 }
 
 body{

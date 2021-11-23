@@ -4,6 +4,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/BGTC.jpg'); 
+    background-position: center;
 }
 .fullscreen2{
     width:100VW;
@@ -11,6 +12,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/BGM.jpg'); 
+    background-position: center;
 }
 
 

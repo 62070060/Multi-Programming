@@ -4,6 +4,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/PCC.jpg'); 
+    background-position: center;
 }
 .flex-center-parent{
     display:flex;

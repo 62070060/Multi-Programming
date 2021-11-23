@@ -4,6 +4,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/BGTC.jpg'); 
+    background-position: center;
 }
 
 
