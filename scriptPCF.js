@@ -6,7 +6,7 @@ function NuTz(){
     theY.innerText = newY;
 
     nongwow = wow.offsetTop;
-    if(newY+window.innerHeight-(wow.offsetHeight/3) >= nongwow && newY < nongwow+700){
+    if(newY+window.innerHeight-(wow.offsetHeight/3) >= nongwow && newY < nongwow+550){
       wow.style.transform = 'translate(-20%)';
     }else{
       wow.style.transform = 'translate(100%)';

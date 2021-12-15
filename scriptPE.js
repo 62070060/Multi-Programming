@@ -5,7 +5,7 @@ function NuTz(){
     theY.innerText = newY;
 
     nongpic = gallery.offsetTop;
-    if(newY+window.innerHeight > nongpic+600){
+    if(newY+window.innerHeight > nongpic+300){
       picture.dataset.active = 1;
       picture.style.setProperty('--i',(newY-nongpic)/10);
     }else{

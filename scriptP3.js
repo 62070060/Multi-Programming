@@ -20,8 +20,8 @@ function NuTz(){
 
   };
 
-function toggle4(){
-  var x = document.getElementById("U6");
+function toggle7(){
+  var x = document.getElementById("U9");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -29,8 +29,8 @@ function toggle4(){
   }
 }
 
-function toggle5(){
-  var x = document.getElementById("U5");
+function toggle8(){
+  var x = document.getElementById("U8");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -38,8 +38,8 @@ function toggle5(){
   }
 }
 
-function toggle6(){
-  var x = document.getElementById("U4");
+function toggle9(){
+  var x = document.getElementById("U7");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

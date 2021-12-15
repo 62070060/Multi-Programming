@@ -1,15 +1,16 @@
 body{
     font-family:sans-serif;
 }
-a{
+.tn{
+    font-size:calc(50vw / 10);
+}
+.tn2{
+    font-size:calc(50vw / 30);
+}
+.icon{
     color:deeppink;
     text-decoration:none;
-    
 }
-.tn{
-    font-size:calc(50vw / 40);
-}
-
 .social{
     font-size:calc(80vw / 40);
     margin-bottom: 3vh; 
@@ -35,12 +36,13 @@ a{
     padding: 1em;
     position: fixed;
     left: -100%;
-    width: 50%;
+    width: 20%;
     height: 100vh;
     box-sizing: border-box;
     transition: all .3s;
     font-size: calc(1vw + 1vh + 1vmin);
     font-weight: 700;
+    background-color: rgb(243, 79, 134);
 }
 #bar{
     position: fixed;
@@ -57,7 +59,7 @@ a{
     
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     .fullscreen {
         background-image: url('PIC/BGMX.jpg'); 
     }
@@ -68,4 +70,24 @@ a{
         font-size:30;
         margin-bottom: 20%;   
       }    
+    .tn{
+        font-size:calc(70vw / 5);
+    }
+    .tn2{
+        font-size:calc(70vw / 20);
+    }
+      #menu{
+        display: block;
+        color: white;
+        padding: 1em;
+        position: fixed;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        box-sizing: border-box;
+        transition: all .3s;
+        font-size: calc(1vw + 1vh + 1vmin);
+        font-weight: 700;
+        background-color: rgb(243, 79, 134);
+    }
 }
