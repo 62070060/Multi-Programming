@@ -14,7 +14,9 @@
 }
 
 body{
-    font-family:sans-serif;
+  height: 100%;
+  font-family:sans-serif;
+  overflow-y: hidden;
 }
 .wctext{
     font-size:calc(60vw / 40);
@@ -48,9 +50,9 @@ p{
     border: 2px solid black;
   }
   .button:hover {
-    background-color: #ffc31f ;
-    color:white ;
-    border: 2px solid #ffc31f;
+    background-color: pink ;
+    color:black ;
+    border: 2px solid black;
   }
   .button {
     transition-duration: 0.3s;
@@ -83,7 +85,7 @@ p{
     position: absolute;
     width:32.2vw;
     top: 20vw; 
-    right: -35vw;
+    right: 58vw;
     box-sizing: border-box;
 }
   #U2{
@@ -93,7 +95,7 @@ p{
     position: absolute;
     width:16vw;
     top: 15vw; 
-    right: -20vw;
+    right: 58vw;
     box-sizing: border-box;
 }
   #U3{
@@ -102,18 +104,16 @@ p{
     padding: 1em;
     position: absolute;
     width:1vw;
-    top: 25vw; 
-    right: -1vw;
+    top: 20vw; 
+    right: 57vw;
     box-sizing: border-box;
 }
-[data-tog="1"]{
-    right: 58vw !important;
-}
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
   .fullscreen {
-    background-image: url('PIC/BGM2X.jpg'); 
+    background-image: url('PIC/BGM2X1.jpg');
+    display: block; 
 }
   .wctext{
     font-size:calc(80vw / 20);
@@ -155,16 +155,16 @@ p{
   #U1{
     width:25vw;
     top: 35vw; 
-    right: -35vw;
+    right: 58vw;
 }
   #U2{
-    width:70vw;
-    top: 25vw; 
-    right: -10vw;
+    width:20vw;
+    top:28vw; 
+    right:40vw;
 }
   #U3{
-    width:68vw;
-    top: 35vw; 
-    right: -30vw;
+    width:20vw;
+    top:30vw; 
+    right:15vw;
 }
 }

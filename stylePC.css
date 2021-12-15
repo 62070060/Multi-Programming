@@ -3,7 +3,7 @@
     height:100vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/PCC.jpg'); 
+    background-image: url('PIC/PCC_1.jpg'); 
 }
 .flex-center-parent{
     display:flex;
@@ -19,28 +19,42 @@ body{
     --scrollY:0;
 }
 
-.wctext{
-    font-size:calc(80vw / 50);
-    margin-bottom: 3%; 
-    text-align: center;
-    margin-top: 18vh;
+.bill{
+    width: 30vw;
 }
 
 
 .button:hover{
     opacity: 0.6;
     transition:0.5s;
-  }
+}
+.button{
+    width: 40vw;
+    cursor:pointer;
+    position:absolute;
+    right: 0vw;
+    bottom:0vh;
+}
   
   
   
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 480px) {
     .fullscreen {
-        background-image: url('PIC/PCC.jpg'); 
+        background-image: url('PIC/PCC_1.jpg'); 
     }
     .social{
         font-size:30;
         margin-bottom: 20%;   
-      }    
+    }
+    .bill{
+        width: 60vw;
+    }
+    .button{
+        width: 60vw;
+        cursor:pointer;
+        position:absolute;
+        right: 0vw;
+        bottom:0vh;
+    }    
 }

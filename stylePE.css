@@ -1,9 +1,19 @@
 .fullscreen1{
     width:100VW;
-    height:219.5vh;
+    height:100vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/BGTC.jpg'); 
+    background-image: url('PIC/BGT1.8.jpg'); 
+    background-position: center;
+}
+
+.fullscreen2{
+    width:100VW;
+    height:170vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('PIC/PCC_1 (2).jpg'); 
+    background-position: center;
 }
 
 
@@ -39,6 +49,13 @@ h3{
     margin-left: 0vw;
 }
 
+.button{
+    width: 56vw;
+    position:absolute;
+    cursor:pointer;
+    right: 0vw;
+    top: 130vh;
+}
 .button:hover{
     opacity: 0.2;
     transform: scale(1.0);
@@ -67,12 +84,44 @@ h3{
 
 
   
-@media screen and (max-width: 800px) {
-    .fullscreen {
-        background-image: url('PIC/BGTC.jpg'); 
+@media screen and (max-width: 480px) {
+    .fullscreen1{
+        width:100VW;
+        height:100vh;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-image: url('PIC/BGT1.8.jpg'); 
+    }
+    
+    .fullscreen2{
+        width:100VW;
+        height:170vh;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-image: url('PIC/PCC_1 (2).jpg'); 
+    }
+    .text01{
+        margin-top: 40vh;
+        margin-left: 0vw;
+        font-size: calc(60vw / 10);
+    }b{
+        font-size:calc(60vw / 10);
+        color: deeppink;
+    }
+    .text02{
+        font-size:calc(60vw / 12);
+        margin-top:-85vh;
+        margin-left: 0vw;
     }
     .social{
         font-size:30;
         margin-bottom: 20%;   
-      }    
+    }
+    .button{
+        width: 70vw;
+        position:absolute;
+        cursor:pointer;
+        right: 0vw;
+        top: 190vh;
+    }    
 }

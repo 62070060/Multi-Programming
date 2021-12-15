@@ -26,10 +26,18 @@
     height:100vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/BGT1.7.jpg'); 
+    background-image: url('PIC/BGT1.4-6.jpg'); 
     background-position: center;
 }
 .fullscreen5{
+    width:100VW;
+    height:100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('PIC/BGT1.4-6.jpg'); 
+    background-position: center;
+}
+.fullscreen6{
     width:100VW;
     height:100vh;
     -webkit-background-size: cover;
@@ -53,13 +61,12 @@ body{
     font-size:calc(80vw / 40);
     margin-bottom: 3%; 
     text-align: center;
-    margin-right: 5vh;
     color: white;
 }
 .wctext2{
-    font-size:calc(60vw / 50);
-    margin-top: -5vh;
-    margin-left: -20vh;
+    font-size:calc(80vw / 40);
+    margin-bottom: 10%;
+    margin-right: 35%;
     text-align: right;
     color: white;
 }
@@ -68,15 +75,10 @@ body{
     cursor:pointer;
     position:absolute;
     top: 16vw;
-    right: 32.5vw;
+     
 }
 p{
     font-size:calc(60vw / 50);
-}
-h3{
-    font-size:calc(60vw / 50);
-    margin-top: -50vh;
-    color: white;
 }
 h4{
     font-size:calc(60vw / 60);
@@ -98,9 +100,7 @@ h5{
     color: white;
     padding: 1em;
     position: fixed;
-    width:50vw;
-    top: 15vw; 
-    right: -0.5vw;
+    top: 15vw;
     box-sizing: border-box;
 }
 #U8{
@@ -108,24 +108,14 @@ h5{
     color: white;
     padding: 1em;
     position:relative;
-    width:30vw;
-    top: -25vw; 
-    right: -55vw;
-
-}
-[data-tog="1"]{
-    left: 150vw !important;
+    width:20vw;
+    top: -25vw;
+    left: 65vw; 
 }
 
 #wow{
     transition:all 0.8s;
   }
-
-.button:hover{
-    opacity: 0.6;
-    transform: scale(1.2);
-    transition:0.5s;
-}
 
 .pictext{
     width: 48vw;
@@ -133,12 +123,7 @@ h5{
     left: 5vw;
     top: 400vh; 
 }
-.rain{
-    width: 30vw;
-    position:fixed;
-    right: 32vw;
-    top: 5vh; 
-}
+
 .flower{
     width: 55vw;
     position:absolute;
@@ -148,9 +133,28 @@ h5{
     width: 40vw; 
     cursor:pointer;
 }
+.UIM21{
+    width: 50vw;
+    position:absolute; 
+    left: 0vw;
+}
 
+.UIM22{
+    width: 50vw;
+    position:absolute; 
+    left: 55vw;
+}
+.UIM3{
+    width: 55vw;
+    position:absolute;
+    right: 22vw; 
+}
+.slip{
+    width: 30vw;
+    margin-left: 15px;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     .fullscreen1{
         background-image: url('PIC/BGT1.1-2X.jpg'); 
     }
@@ -161,9 +165,12 @@ h5{
         background-image: url('PIC/BGT1.4-6.jpg'); 
     }
     .fullscreen4{
-        background-image: url('PIC/BGT1.7.jpg'); 
+        background-image: url('PIC/BGT1.4-6.jpg'); 
     }
     .fullscreen5{
+        background-image: url('PIC/BGT1.4-6.jpg'); 
+    }
+    .fullscreen6{
         background-image: url('PIC/BGT1.8.jpg'); 
     }
     h3{
@@ -176,31 +183,33 @@ h5{
         margin-bottom: 20%;   
       }
     .wctext{
-        font-size:calc(80vw / 10);
+        font-size:calc(80vw / 18);
         margin-bottom: 3%; 
         text-align: center;
         margin-left: 5vh;
         color: white;
     }
     .wctext2{
-        font-size:calc(80vw / 8);
-        margin-bottom: 20%; 
+        font-size:calc(85vw / 20);
+        margin-bottom: 20%;
+        margin-left: 10%; 
         text-align: center;
-        margin-left: 40vw;
         color: white;
     }    
     .UIM1C{
-        width: 80vw;
+        width: 100vw;
         cursor:pointer;
         position:absolute;
-        top: 90vw;
-        right: 10vw;
+        left: 0vw;
     }
     .UIM2{
+        width: 60vw;
         top: 550vw;
     }
     .UIM3{
-        top: 760vw;
+        margin-top: 30%;
+        left: 2vw;
+        width: 100vw;
     }
     .pictext{
         top: 930vw;
@@ -227,9 +236,34 @@ h5{
         right: 40vw;
         top: -9vh;  
     }
+    #U7{
+        display: block;
+        position: fixed;
+        top: 15vw;
+        box-sizing: border-box;
+    }
+    .UIM21{
+        margin-top: 40%;
+        width: 70vw;
+        position:absolute; 
+        left: 0vw;
+    }
+    
+    .UIM22{
+        margin-top: 40%;
+        width: 70vw;
+        position:absolute; 
+        left: 30vw;
+    }
+    .U8{
+        margin-right:40%;
+    }
     .button{
         width: 100vw; 
         cursor:pointer;
-        top: -50vh;
+    }
+    .slip{
+        width: 88vw;
+        margin-left: 15px;
     }
 }

@@ -1,6 +1,6 @@
 .fullscreen1{
     width:100VW;
-    height:500vh;
+    height:520vh;
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url('PIC/BGT2.jpg'); 
@@ -58,14 +58,26 @@ h3{
     opacity: 0.6;
     transition:0.5s;
   }
+.button{
+    left: 30vw;
+    width: 40vw;
+    margin-top: -20vh;
+    position:absolute;
+    cursor:pointer;
+}
+.model{
+    width: 35vw;
+    position:absolute;
+    right: 38vw;
+}
 
   
   
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 480px) {
     .fullscreen1 {
         width: 100vw;
-        height: 200vh;
+        height: 300vh;
         background: url('PIC/BGT2.jpg');
         background-size: cover;
         background-position: center, center;
@@ -76,17 +88,17 @@ h3{
       }
     .text01{
         font-size: 5vw;
-        margin-top: 12vh;
+        margin-top: 20vh;
         margin-left: -10vw;
     }
     .text02{
         font-size: 3vw;
-        margin-top: 22vh;
+        margin-top: 40vh;
         margin-left: 0vw;
     }
     .text03{
-        font-size: 4vw;
-        margin-top: 8vh;
+        font-size: 5vw;
+        margin-top:15vh;
         margin-left: 0vw;
     }
     h2{
@@ -101,19 +113,26 @@ h3{
         margin-top: -8vh;
     }
     .text04{
-        font-size:calc(60vw / 20);
-        margin-top: 10vh;
+        font-size:calc(55vw / 20);
+        margin-top: 30vh;
         margin-left: 2vw;
     }
     .text05{
-        font-size:calc(60vw / 20);
-        margin-top: 1vh;
+        font-size:calc(55vw / 20);
+        margin-top: 5vh;
         margin-left: 2vw;
     }
     .button{
+        left: 20vw;
+        width: 60vw;
+        margin-top: 10vh;
         position:absolute;
         cursor:pointer;
-        margin-right: 65vw;
-        top: 80vh;
+    }
+    .model{
+        width: 35vw;
+        position:absolute;
+        right: 30vw;
+        margin-top:10vh;
     } 
 }

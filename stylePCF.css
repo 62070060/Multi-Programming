@@ -3,7 +3,7 @@
     height:200vh;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('PIC/PCF.jpg'); 
+    background-image: url('PIC/PCC_1 (1).jpg'); 
 }
 
 
@@ -28,7 +28,7 @@ body{
     transition:0.5s;
     transform: scale(1.2);
   }
-  #gear{
+#gear{
   --deg:0;
   position:fixed;
   left: 1vw;
@@ -40,20 +40,45 @@ body{
     top:25vh;
     left: 15.2vw;
     transform:rotate(calc(var(--deg) * 0.05deg));
-  }
+}
 
 #wow{
     transition:all 0.8s;
-  }
+}
+.text{
+  width: 50vw;
+  margin-left: 45vw;
+  margin-top: 10vh;
+}
   
   
   
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     .fullscreen {
-        background-image: url('PIC/PCF.jpg'); 
+        background-image: url('PIC/PCC_1 (1).jpg'); 
     }
     .social{
         font-size:30;
         margin-bottom: 20%;   
-      }    
+    }
+    .text{
+      width: 60vw;
+      margin-left: 20vw;
+      margin-top: 10vh;
+    }
+    #gear{
+      --deg:0;
+      position:fixed;
+      left: 25vw;
+      top: 40vh;
+      transform:rotate(calc(var(--deg) * 0.13deg));
+    }
+    #gear2{
+        --deg:0;
+        position:fixed;
+        top:45vh;
+        left: 39.2vw;
+        transform:rotate(calc(var(--deg) * 0.05deg));
+    }
+        
 }
